@@ -1,3 +1,4 @@
+#!/bin/bash
 #for in
 echo "For in basic variables"
 for var in one two three four five six
