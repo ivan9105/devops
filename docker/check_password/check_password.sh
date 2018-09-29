@@ -1,0 +1,1 @@
+#!/bin/sh"printf "Enter the password: ""read password"#ivan9105"secret=05bc45b6ebff325345aa20d8c14cf745bf276ecd"if `echo $password | sha1sum | grep -q $secret`;  then"	echo "Congratulations! you logged successfully ""
